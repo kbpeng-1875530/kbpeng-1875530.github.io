@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Embedding media</title>
+	</head>
+	<body>
+		<h1>Embedding media</h1>
+		<h2>A Youtube video</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ASO6t2zp_UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<h2>A google map</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.289173278251!2d-122.35146608396559!3d47.62050989500955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490151f4ed5b7f9%3A0xdb2ba8689ed0920d!2sSpace%20Needle!5e0!3m2!1sen!2sus!4v1609972539722!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		
+		<h2>One more thing that did not demo in the workshop: Audio</h2>
+		<audio controls><source src="music.mp3" type="audio/mp3"></audio>
+		
+		<h2>A Youtube video that plays starting at minute 3</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/1TfbiDo7N4k?start=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<h2>A video that plays using the HTML5 video tag</h2>
+		<video width="560" height="315" controls><source src="trailer.mp4" type="video/mp4"></video>
+		
+		<h2>Something using the object tag</h2>
+		<object data="poster.jpg" width="560"></object>
+		
+		<h2>A Youtube video that plays starting at minute 3 and another feature that you can't get from the basic embed code you paste from Youtube: Border</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/UkJ07HvWVhE?start=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:5px solid black;" allowfullscreen></iframe>
+		
+		<h2>A video and audio file that plays using the HTML5 video and audio tags</h2>
+		<video width="560" height="315" controls><source src="mv.mp4" type="video/mp4"></video>
+		<audio controls><source src="music2.mp3" type="audio/mp3"></audio>
+		
+		<h2>Something using the object tag that is not flash: Image</h2>
+		<object data="poster2.jpg" width="560"></object>
+		
+		<h2>An RSS feed displayed</h2>
+		<div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:200px;background-color:#transparent; border:1px solid #333333;"><div id="rsswidget" style="height:500px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1609980109372&amp;x=http%3A%2F%2Frss.cnn.com%2Frss%2Fcnn_topstories.rss&amp;w=200&amp;h=500&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=20&amp;it=true&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:200px; height:500px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+	</body>
+</html>
